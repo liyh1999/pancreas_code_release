@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Code for automated pancreatic segmentation and regional fat quantification"
+message: "If you use this code, please cite the associated manuscript and archived DOI."
+type: software
+authors:
+  - family-names: Li
+    given-names: YingHao
+  - family-names: Wang
+    given-names: LiHui
+  - family-names: Wang
+    given-names: Hongzhi
+repository-code: "TO_BE_INSERTED"
+doi: "TO_BE_INSERTED"
+date-released: "2026-06-01"
+license: "MIT"
+

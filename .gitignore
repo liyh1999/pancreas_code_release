@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+outputs/
+data/
+*.nii
+*.nii.gz
+*.csv
+*.xlsx
+

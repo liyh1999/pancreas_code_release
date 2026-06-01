@@ -1,0 +1,27 @@
+# 路径与运行参数，按本地数据目录改
+
+project:
+  random_seed: 42
+  n_splits: 5
+
+data:
+  metadata_csv: "metadata.csv"
+  images_dir: "images"
+  masks_dir: "masks"
+  pdff_dir: "pdff"
+  output_dir: "outputs"
+
+partition:
+  # 区域标签：1=尾，2=体，3=头
+  # head_side: 主轴投影 max/min 端哪边算胰头，需对照扫描方向人工确认
+  head_side: "max"
+  ratios:
+    head: 13
+    body: 10
+    tail: 5
+
+nnunet:
+  dataset_id: 501
+  configuration: "3d_fullres"
+  trainer: "nnUNetTrainer"
+  plans: "nnUNetPlans"
